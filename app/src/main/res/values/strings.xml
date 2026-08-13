@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TV Cursor</string>
+    <string name="service_name">TV Cursor Control</string>
+    <string name="accessibility_service_description">Lets you move an on-screen mouse cursor and click using only the TV remote D-pad. Long-press BACK to toggle cursor mode on or off.</string>
+</resources>

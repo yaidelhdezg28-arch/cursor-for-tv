@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="48dp"
+    android:background="#000000">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TV Cursor"
+        android:textColor="#FFFFFF"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status: checking..."
+        android:textColor="#FFCC00"
+        android:textSize="20sp"
+        android:layout_marginBottom="32dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#CCCCCC"
+        android:textSize="16sp"
+        android:layout_marginBottom="32dp"
+        android:gravity="center"
+        android:text="1. Tap the button below and enable \'TV Cursor Control\' in Accessibility settings.\n\n2. Once enabled, long-press the BACK button on your remote at any time to show/hide the mouse cursor.\n\n3. While the cursor is visible, use the D-pad to move it and press OK/Center to click." />
+
+    <Button
+        android:id="@+id/enableButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open Accessibility Settings"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
+
+</LinearLayout>
